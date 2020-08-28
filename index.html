@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAND BOOK</title>
+    
+    <!--
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/617a1647f6.js" crossorigin="anonymous"></script>
+    -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link href="style_custom.css" rel="stylesheet">
+    
+    <!-- Google OAuth2-->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="929851819630-8sr723knr76guo5ehfh5ar4nimpsu3t7.apps.googleusercontent.com">
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <script>
+      function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+        console.log('Name: ' + profile.getName());
+        console.log('Image URL: ' + profile.getImageUrl());
+        console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+      }
+    </script>
+
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light stidy-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">PIPING HANDBOOK</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./pipe/pipe.html">PIPE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./valves/valve.html">VALVE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./components/component.html">COMPONENT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Image Slider -->
+  <div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <p style="text-align:center;">
+            <img src="RRE2.jpg" alt="NONE">
+        </p>
+        <div class="carousel-caption">
+          <h1 class="display-2">PIPING HANDBOOK</h1>
+          <h3>Engineering Information for Piping Design</h3>
+          <button type="button" class="btn btn-outline-light btn-lg">VIEW</button>
+          <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <p style="text-align:center;">
+            <img src="img/Laffan Refinery_2.jpg" alt="NONE">
+        </p>
+      </div>
+      <div class="carousel-item">
+        <p style="text-align:center;">
+            <img src="img/TPI 150,000 BPSD Refinery_0.jpg" alt="NONE">
+        </p>
+      </div>
+  </div>
+  </div>
+
+<!-- Jumbo Tron -->
+<div class="container-fluid">
+<div class="row jumbotron">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+        <p class="lead">
+            TEST
+        </p>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+        <a href="#">
+            <button type="button" class="btn btn-outline-secondary btn-lg">DETAIL</button>
+        </a>
+    </div>
+</div>
+</div>
+
+<!-- Welcome Section -->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+    <div class="col-12">
+        <h1 class="display-4">Built with ease.</h1>
+    </div>
+    <hr>
+    <div class="col-12">
+        <p class="lead">
+            Welcome to Piping Handbook Web Application!
+            This web application ........ for GS E&C.
+        </p>
+    </div>
+</div>    
+</div>
+
+<!-- Three Column Section -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fas fa-code"></i>
+        <h3>HTML5</h3>
+        <p>Built with the latest version of HTML, HTML5.</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4">
+        <i class="fas fa-bold"></i>
+        <h3>JavaScript</h3>
+        <p>Built with the latest version of JavaScript, ES6.</p>
+    </div>
+    <div class="col-sm-12 col-md-4">
+        <i class="fab fa-css3"></i>
+        <h3>CSS</h3>
+        <p>Built with the latest version of CSS, CSS3.</p>
+    </div>
+</div>
+<hr class="my-4"> 
+</div>
+
+<!-- Two Column Section-->
+<div class="container-fluid padding">
+  <div class="row padding">
+    <div class="col-lg-6">
+      <h2>PIPING ENGINEERING IS ...</h2>
+      <p>Work & Work</p>
+      <p>Realize... </p>
+      <p>What the..</p>
+      <br>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+    <div class="col-lg-6">
+      <Img src="img/desk.png" class="img-fluid"></Img>
+    </div>
+  </div>
+</div>
+
+<hr class="my-4">
+<!-- Fixed background -->
+<figure>
+  <div class="fixed-wrap">
+    <div id="fixed">
+    </div>
+  </div>
+</figure>
+
+<!-- Emoji Section -->
+<button class="fun" data-toggle="collapse" data-target="#emoji">click for fun
+</button>
+<div id="emoji" class="collapse">
+  <div class="container-fluid padding">
+    <div class="row text-center">
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/gif/panda.gif" alt="PANDA">
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/gif/chicken.gif" alt="CHICKEN">
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/gif/poo.gif" alt="POO">
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/gif/unicorn.gif" alt="UNICORN">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Mett the team -->
+<div class="container-fluid padding">
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <h1 class="display-4">Meet the Team</h1>
+    </div>
+  </div>
+</div>
+
+<!-- Cards -->
+<div class="container-fluid padding">
+<div class="row padding">
+  <div class="col-md-4">
+    <div class="card">
+      <img class="card-img-top" src="img/team1.png" alt="TEAM1">
+      <div class="card-body">
+        <h4 class="card-title">DESIGN</h4>
+        <p class="card-text">DESIGN PART is ... </p>
+        <a href="#" class="btn btn-outline-secondary">See More</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <img class="card-img-top" src="img/team2.png" alt="TEAM1">
+      <div class="card-body">
+        <h4 class="card-title">MATERIAL</h4>
+        <p class="card-text">MATERIAL PART is ... </p>
+        <a href="#" class="btn btn-outline-secondary">See More</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card">
+      <img class="card-img-top" src="img/team3.png" alt="TEAM1">
+      <div class="card-body">
+        <h4 class="card-title">STRESS</h4>
+        <p class="card-text">STRESS PART is ... </p>
+        <a href="#" class="btn btn-outline-secondary">See More</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<hr class="my-4">
+<!-- Connect -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+  <div class="col-12">
+    <h2>Connect</h2>
+  </div>
+  <div class="col-12 social padding">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+</div> 
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="container-fluid padding">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <hr class="light">
+      <p>02-2154-0000</p>
+      <p>hspark04@gsenc.com</p>
+      <p>PLANT PIPING ENGINEERING</p>
+      <p>10F, TOWER2, GRAN SEOUL</p>
+    </div>
+    <div class="col-md-4">
+      <hr class="light">
+      <h5>Our hours</h5>
+      <hr class="light">\
+      <p>Mon - Fri : 08:30 ~ 17:30</p>
+      <p>Sat & Sun : closed</p>
+    </div>
+    <div class="col-md-4">
+      <hr class="light">
+      <h5>Service Area</h5>
+      <hr class="light">\
+      <p>KOREA</p>
+      <p>INDIA</p>
+    </div>
+    <div class="col-12">
+      <hr class="light">
+      <h5>&copy; GS ENGINEERING & CONSTRUCTION</h5>
+    </div>
+  </div>
+  </div>
+</footer>
+
+</body>
+</html>
